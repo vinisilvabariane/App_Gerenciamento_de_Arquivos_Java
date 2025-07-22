@@ -4,10 +4,10 @@ import java.time.LocalDate;
 
 public class Emprestimo {
     private String nomeDeUsuario;
-    private String livro;
+    private Livro livro;
     private LocalDate dataDeEmprestimo;
 
-    public Emprestimo(String nomeDeUsuario, String livro){
+    public Emprestimo(String nomeDeUsuario, Livro livro){
         this.nomeDeUsuario = nomeDeUsuario;
         this.livro = livro;
         this.dataDeEmprestimo = LocalDate.now();
